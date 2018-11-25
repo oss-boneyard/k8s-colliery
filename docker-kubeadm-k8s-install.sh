@@ -5,8 +5,8 @@ K8S_VERSION=1.11.3-00
 node_type=master
 
 #Update all installed packages.
-apt-get update
-apt-get upgrade
+sudo apt-get update
+yes | apt-get upgrade
 
 #if you get an error similar to
 #'[ERROR Swap]: running with swap on is not supported. Please disable swap', disable swap:
